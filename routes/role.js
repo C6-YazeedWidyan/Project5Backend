@@ -10,8 +10,8 @@ const roleRouter = express.Router();
 roleRouter.post("/", createNewRole);
 roleRouter.post("/permission", createNewPermission);
 roleRouter.post("/role_permission", createNewRolePermission);
-roleRouter.get("/");
-roleRouter.put("/");
-roleRouter.delete("/");
+// roleRouter.get("/");
+// roleRouter.put("/");
+// roleRouter.delete("/");
 
 module.exports = roleRouter;
