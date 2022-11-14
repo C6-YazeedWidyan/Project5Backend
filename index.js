@@ -4,7 +4,7 @@ const cors = require("cors");
 require("./models/db");
 const wishlistRouter = require("./routes/wishlist");
 const paymentRouter = require("./routes/payment");
-const matchRouter = require("./routes/match");
+// const matchRouter = require("./routes/match");
 const cartRouter = require("./routes/cart");
 const productRouter = require("./routes/product");
 const loginRouter = require("./routes/login");
@@ -12,7 +12,7 @@ const categoryRouter = require("./routes/category");
 const webstatusRouter = require("./routes/webstatus");
 const roleRouter = require("./routes/role");
 const userRouter = require("./routes/users");
-const orderRouter = require("./routes/order");
+// const orderRouter = require("./routes/order");
 
 const app = express();
 app.use(express.json({ limit: "50mb" }));
