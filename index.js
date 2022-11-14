@@ -26,13 +26,12 @@ app.use("/login", loginRouter);
 app.use("/category", categoryRouter);
 app.use("/webstatus", webstatusRouter);
 app.use("/role", roleRouter);
-app.use("/match", matchRouter);
+// app.use("/match", matchRouter);
 app.use("/user", userRouter);
-app.use("/order", orderRouter);
+// app.use("/order", orderRouter);
 
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`server on ${PORT}`);
 });
-
